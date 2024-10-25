@@ -1675,6 +1675,7 @@ std::string eServiceHisilicon::getInfoString(int w)
 	switch (w)
 	{
 	case sProvider:
+	{
 		std::string prov = m_ref.getProvider();
 		if (pstProgram)
 		{
@@ -1696,6 +1697,7 @@ std::string eServiceHisilicon::getInfoString(int w)
 			}
 		}
 		break;
+	}
 	case sServiceref:
 	{
 		eServiceReference ref(m_ref);
